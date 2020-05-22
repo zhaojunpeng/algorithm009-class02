@@ -15,7 +15,7 @@ public class Solution {
         }
         else
         {
-            int result  = ClimbStairs(n -1) + ClimbStairs(n - 2);
+            int result  = ClimbStairs(n - 1) + ClimbStairs(n - 2);
             dict.Add(n, result);
             return result;
         }    
